@@ -1,0 +1,9 @@
+REQUISIÇÃO: Axios
+CSS: Tailwind
+ESTADO: Context
+COMPONENTES: Radix UI
+----------------------------------------------------
+CÓDIGO: Typescript
+TESTE: tudo
+ANIMAÇÕES: Framer Motion
+ROTAS: React Router
