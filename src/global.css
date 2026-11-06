@@ -1,0 +1,24 @@
+@import "tailwindcss/preflight";
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-foreground antialiased overflow-x-hidden selection:bg-primary selection:text-white;
+  }
+
+  *:focus-visible {
+    @apply outline-none ring-2 ring-primary ring-offset-2 ring-offset-background;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-background;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-border rounded-full hover:bg-zinc-700 transition-colors;
+  }
+}
