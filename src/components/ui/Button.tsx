@@ -10,7 +10,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       <button
         ref={ref}
         {...props}
-        className="flex items-center justify-center gap-2 px-4 py-2 bg-surface text-foreground border border-border rounded-md hover:bg-border transition-colors outline-none focus-visible:ring-2 focus-visible:ring-primary"
+        className="flex items-center justify-center gap-2 px-4 py-2 bg-surface text-foreground border border-border rounded-md hover:cursor-pointer hover:bg-border transition-colors outline-none focus-visible:ring-2 focus-visible:ring-primary"
       >
         {children}
       </button>

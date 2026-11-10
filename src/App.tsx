@@ -1,5 +1,6 @@
 
 import Header from "./components/layout/Header";
+import Sidebar from "./components/layout/Sidebar";
 
 
 function App() {
@@ -8,8 +9,8 @@ function App() {
       <Header />
 
       <main>
-        {/* <Sidebar /> */}
-
+        <Sidebar />
+        
         <section>
           
         </section>
