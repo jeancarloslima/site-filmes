@@ -9,8 +9,9 @@ export default function MiniCard({ text }: MiniCardProps) {
     <motion.div
       initial={{ opacity: 0, x: -20 }}
       animate={{ opacity: 1, x: 0 }}
+      exit={{ opacity: 0, scale: 0.8 }}
       layout
-      className="flex justify-between bg-surface border border-border rounded-md p-3"
+      className="flex justify-between bg-surface border border-border rounded-md p-2.5"
     >
         <span>{text}</span>
         <button className="w-5 hover:cursor-pointer">X</button>

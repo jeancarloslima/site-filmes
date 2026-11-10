@@ -13,7 +13,7 @@ export default function Sidebar() {
 
             <div className="flex flex-col gap-3">
                 <AnimatePresence>
-                    <MiniCard text="Gênero: Ação" />
+                    <MiniCard key="filtro-acao" text="Gênero: Ação" />
                 </AnimatePresence>
             </div>
 
