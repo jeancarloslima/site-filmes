@@ -1,7 +1,5 @@
-
 import Header from "./components/layout/Header";
 import Sidebar from "./components/layout/Sidebar";
-
 
 function App() {
   return (
@@ -10,7 +8,7 @@ function App() {
 
       <main>
         <Sidebar />
-        
+
         <section>
           
         </section>

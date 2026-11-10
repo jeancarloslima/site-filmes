@@ -18,7 +18,7 @@ export default function Sidebar() {
             </div>
 
             <div className="flex justify-center mt-auto pt-2 border-t-2 border-border">
-                <Button>
+                <Button variant="ghost">
                     Limpar Filtros
                 </Button>
             </div>

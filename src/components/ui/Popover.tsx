@@ -5,7 +5,7 @@ export default function Popover() {
     return (
         <PopoverComponent.Root>
             <PopoverComponent.Trigger asChild>
-                <Button>
+                <Button variant="primary">
                     Adicionar regra
                 </Button>
             </PopoverComponent.Trigger>
