@@ -1,3 +1,4 @@
+import Footer from "./components/layout/Footer";
 import Header from "./components/layout/Header";
 import Sidebar from "./components/layout/Sidebar";
 
@@ -6,7 +7,7 @@ function App() {
     <div>
       <Header />
 
-      <main>
+      <main className="py-8">
         <Sidebar />
 
         <section>
@@ -14,7 +15,7 @@ function App() {
         </section>
       </main>
 
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
