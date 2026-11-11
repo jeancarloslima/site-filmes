@@ -14,6 +14,7 @@ export default function DropdownMenuComponent() {
 
       <DropdownMenu.Portal>
         <DropdownMenu.Content
+          align="end"
           sideOffset={5}
           className="bg-surface border border-border z-100"
         >

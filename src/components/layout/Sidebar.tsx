@@ -6,7 +6,7 @@ import Button from "../ui/Button";
 
 export default function Sidebar() {
     return (
-        <aside className="min-h-200 w-90 flex flex-col gap-4 p-6 relative rounded-xl border border-border bg-surface">
+        <aside className="min-h-200 w-full max-w-90 flex flex-col mx-auto md:mx-0 gap-4 p-6 relative rounded-xl border border-border bg-surface">
             <h2 className="flex items-center justify-center gap-4 text-muted text-xl"><Search/> Construtor de Queries</h2>
             
             <Popover />
