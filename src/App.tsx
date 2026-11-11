@@ -7,12 +7,10 @@ function App() {
     <div>
       <Header />
 
-      <main className="py-8">
-        <Sidebar />
+      <main className="py-8 px-4">
+          <Sidebar />
 
-        <section>
-          
-        </section>
+          <section></section>
       </main>
 
       <Footer />
