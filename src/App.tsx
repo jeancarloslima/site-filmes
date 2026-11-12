@@ -8,7 +8,7 @@ function App() {
     <div>
       <Header />
 
-      <main className="py-8 px-4">
+      <main className="py-8 px-4 lg:px-10">
           <Sidebar />
 
           <section></section>
