@@ -1,9 +1,9 @@
-import { MoveIcon } from "lucide-react";
+import { ClapperboardIcon } from "lucide-react";
 
 export default function MoviePoster() {
     return (
-        <div>
-            <MoveIcon />
+        <div className="p-4 border border-border rounded-xl">
+            <ClapperboardIcon />
         </div>
     )
 }
