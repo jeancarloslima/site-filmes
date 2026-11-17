@@ -24,14 +24,16 @@ export default function Dialog({ numberOfFilms }: DialogProps) {
             <span>2026</span>
 
             <ul className="flex flex-col pt-3">
-              <li className="p-3 bg-primary border border-border">
+              <li className="p-3 bg-primary border border-border rounded-t-lg">
                 Orçamento: 100.000.000
               </li>
               <li className="p-3 border border-border">
                 Bilheteria: 212.000.000
               </li>
               <li className="p-3 border border-border">Nota: 7.7</li>
-              <li className="p-3 border border-border">Duração: 113 min</li>
+              <li className="p-3 border border-border rounded-b-lg">
+                Duração: 113 min
+              </li>
             </ul>
           </div>
 
@@ -41,14 +43,16 @@ export default function Dialog({ numberOfFilms }: DialogProps) {
             <span>2026</span>
 
             <ul className="flex flex-col pt-3">
-              <li className="p-3 border border-border">
+              <li className="p-3 bg-primary border border-border rounded-t-lg">
                 Orçamento: 100.000.000
               </li>
-              <li className="p-3 bg-primary border border-border">
+              <li className="p-3 border border-border">
                 Bilheteria: 212.000.000
               </li>
               <li className="p-3 border border-border">Nota: 7.7</li>
-              <li className="p-3 border border-border">Duração: 113 min</li>
+              <li className="p-3 border border-border rounded-b-lg">
+                Duração: 113 min
+              </li>
             </ul>
           </div>
 
@@ -58,14 +62,16 @@ export default function Dialog({ numberOfFilms }: DialogProps) {
             <span>2026</span>
 
             <ul className="flex flex-col pt-3">
-              <li className="p-3 border border-border">
+              <li className="p-3 bg-primary border border-border rounded-t-lg">
                 Orçamento: 100.000.000
               </li>
               <li className="p-3 border border-border">
                 Bilheteria: 212.000.000
               </li>
               <li className="p-3 border border-border">Nota: 7.7</li>
-              <li className="p-3 border border-border">Duração: 113 min</li>
+              <li className="p-3 border border-border rounded-b-lg">
+                Duração: 113 min
+              </li>
             </ul>
           </div>
 
