@@ -11,7 +11,7 @@ export default function Dock() {
       className="w-[90%] h-35 md:h-20 p-4 fixed flex flex-col gap-4 md:flex-row md:justify-between items-center bottom-0 left-[50%] right-[50%] -translate-x-1/2 -translate-y-1/2 rounded-xl bg-primary/90 backdrop-blur-md z-40"
     >
       <div className="flex items-center gap-4">
-        <span className="font-semibold">2 filmes selecionados</span>
+        <span className="font-semibold">3 filmes selecionados</span>
         <div className="flex gap-2">
           <MoviePoster />
           <MoviePoster />

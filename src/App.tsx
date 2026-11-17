@@ -13,7 +13,7 @@ function App() {
 
           <section></section>
 
-          <Dialog />
+          <Dialog numberOfFilms={3} />
       </main>
 
       <Footer />
