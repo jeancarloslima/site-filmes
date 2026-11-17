@@ -8,10 +8,10 @@ export default function Dock() {
     <motion.div
       initial={{ y: "100%" }}
       animate={{ y: 0 }}
-      className="w-[90%] h-35 p-4 fixed flex flex-col gap-4 md:flex-row md:justify-between items-center bottom-0 left-[50%] right-[50%] -translate-x-1/2 -translate-y-1/2 rounded-xl bg-primary/90 backdrop-blur-md z-40"
+      className="w-[90%] h-35 md:h-20 p-4 fixed flex flex-col gap-4 md:flex-row md:justify-between items-center bottom-0 left-[50%] right-[50%] -translate-x-1/2 -translate-y-1/2 rounded-xl bg-primary/90 backdrop-blur-md z-40"
     >
       <div className="flex items-center gap-4">
-        <span>2 filmes selecionados</span>
+        <span className="font-semibold">2 filmes selecionados</span>
         <div className="flex gap-2">
           <MoviePoster />
           <MoviePoster />
