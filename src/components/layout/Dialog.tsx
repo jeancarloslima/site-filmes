@@ -16,7 +16,7 @@ export default function Dialog({ numberOfFilms }: DialogProps) {
       <DialogComponent.Portal>
         <DialogComponent.Overlay className="fixed inset-0 bg-background/80 backdrop-blur-sm z-60" />
         <DialogComponent.Content
-          className={`grid gap-10 md:gap-5 overflow-scroll fixed left-1/2 top-1/2 max-h-[85vh] w-[90vw] p-6 pt-15 max-w-5xl -translate-x-1/2 -translate-y-1/2 bg-surface rounded-md focus:outline-none z-70 ${numberOfFilms === 2 ? "md:grid-cols-2" : "md:grid-cols-3"}`}
+          className={`max-h-[85vh] w-[90vw] max-w-110 md:max-w-5xl grid gap-10 md:gap-5 p-6 pt-15 fixed left-1/2 top-1/2 overflow-x-scroll md:overflow-auto -translate-x-1/2 -translate-y-1/2 bg-surface rounded-md focus:outline-none z-70 ${numberOfFilms === 2 ? "md:grid-cols-2" : "md:grid-cols-3"}`}
         >
           <div className="flex flex-col gap-3 text-center">
             <MoviePoster />
