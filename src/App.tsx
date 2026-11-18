@@ -9,11 +9,20 @@ function App() {
     <div>
       <Header />
 
-      <main className="flex flex-col md:flex-row items-center md:items-start gap-6 py-8 px-4 lg:px-10">
+      <main className="flex flex-col md:flex-row md:items-start gap-6 py-8 px-4 lg:px-10">
           <Sidebar />
 
-          <section className="md:pt-8">
+          <section className="w-full flex justify-center md:justify-start flex-wrap gap-4 md:pt-8">
             <MovieCard movieSelected={true} />
+            <MovieCard movieSelected={false} />
+            <MovieCard movieSelected={false} />
+            <MovieCard movieSelected={false} />
+            <MovieCard movieSelected={false} />
+            <MovieCard movieSelected={true} />
+            <MovieCard movieSelected={false} />
+            <MovieCard movieSelected={false} />
+            <MovieCard movieSelected={true} />
+            <MovieCard movieSelected={false} />
           </section>
 
           <Dialog numberOfFilms={3} />
