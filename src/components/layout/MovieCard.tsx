@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import MoviePoster from "../ui/MoviePoster";
 import Button from "../ui/Button";
+import { StarIcon } from "lucide-react";
 
 interface MovieCardProps {
   movieSelected: boolean;
@@ -15,9 +16,18 @@ export default function MovieCard({ movieSelected }: MovieCardProps) {
     >
       <MoviePoster />
 
-      <div className="flex flex-col flex-1 gap-3 p-4"></div>
+      <div className="flex flex-col flex-1 gap-3 p-4">
+        <h2 className="text-lg font-semibold text-foreground truncate">Título do Filme</h2>
+        <span className="flex items-center justify-between text-sm text-muted">
+            <span>2026</span>
+            <span className="flex items-center gap-1">
+                <StarIcon fill="#FFDE21" size={16} />
+                4.3
+            </span>
+        </span>
+      </div>
 
-      <Button className="w-full mt-auto">
+      <Button className="w-full mt-auto rounded-none" variant={movieSelected ? "primary" : "secondary"}>
         {movieSelected ? "Selecionado" : "Comparar"}
       </Button>
     </motion.article>
