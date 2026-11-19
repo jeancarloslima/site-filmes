@@ -7,7 +7,7 @@ interface MoviePosterProps {
 export default function MoviePoster({ size = "sm" } : MoviePosterProps) {
     const sizes = {
         sm: "p-4",
-        lg: "w-30 h-45 aspect-[2/3]"
+        lg: "w-full aspect-[2/3]"
     }
 
     return (

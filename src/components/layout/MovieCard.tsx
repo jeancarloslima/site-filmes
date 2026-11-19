@@ -14,7 +14,7 @@ export default function MovieCard({ movieSelected }: MovieCardProps) {
       animate={{ scale: 1, opacity: 1 }}
       className={`flex flex-col w-full max-w-75 group bg-surface border rounded-lg overflow-hidden ${movieSelected ? "border-primary" : "border-border"}`}
     >
-      <MoviePoster />
+      <MoviePoster size="lg" />
 
       <div className="flex flex-col flex-1 gap-3 p-4">
         <h2 className="text-lg font-semibold text-foreground truncate">Título do Filme</h2>
