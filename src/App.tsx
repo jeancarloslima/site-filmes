@@ -20,8 +20,10 @@ function App() {
             <MovieCard movieSelected={false} />
             <MovieCard movieSelected={true} />
             <MovieCard movieSelected={false} />
-            <MovieCard movieSelected={false} />
             <MovieCard movieSelected={true} />
+            <MovieCard movieSelected={false} />
+            <MovieCard movieSelected={false} />
+            <MovieCard movieSelected={false} />
             <MovieCard movieSelected={false} />
           </section>
 
