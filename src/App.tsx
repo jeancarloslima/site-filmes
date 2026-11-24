@@ -25,6 +25,12 @@ function App() {
             <MovieCard movieSelected={false} />
             <MovieCard movieSelected={false} />
             <MovieCard movieSelected={false} />
+            <MovieCard movieSelected={false} />
+            <MovieCard movieSelected={false} />
+            <MovieCard movieSelected={false} />
+            <MovieCard movieSelected={false} />
+            <MovieCard movieSelected={false} />
+            <MovieCard movieSelected={false} />
           </section>
 
           <Dialog numberOfFilms={3} />
