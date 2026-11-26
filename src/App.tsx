@@ -9,10 +9,11 @@ function App() {
     <div>
       <Header />
 
-      <main className="flex flex-col md:flex-row md:items-start gap-6 py-8 px-4 lg:px-10">
+      <div className="flex flex-col md:flex-row md:items-start gap-6 py-8 px-4 lg:px-10">
           <Sidebar />
 
-          <section className="w-full flex justify-center md:justify-start flex-wrap gap-4 md:pt-8">
+          <main className="flex flex-1 justify-center md:justify-start flex-wrap gap-4 pt-8 relative overflow-y-auto">
+            <p className="absolute top-0">Filmes encontrados: 18</p>
             <MovieCard movieSelected={true} />
             <MovieCard movieSelected={false} />
             <MovieCard movieSelected={false} />
@@ -31,10 +32,10 @@ function App() {
             <MovieCard movieSelected={false} />
             <MovieCard movieSelected={false} />
             <MovieCard movieSelected={false} />
-          </section>
+          </main>
 
           <Dialog numberOfFilms={3} />
-      </main>
+      </div>
 
       <Footer />
     </div>
