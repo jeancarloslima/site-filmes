@@ -7,7 +7,7 @@ interface MoviePosterProps {
 export default function MoviePoster({ size = "sm" } : MoviePosterProps) {
     const sizes = {
         sm: "p-4 rounded-xl bg-surface",
-        lg: "w-full aspect-[2.3/3] bg-background rounded-t-xl"
+        lg: "w-full aspect-[2/3] bg-background rounded-t-xl"
     }
 
     return (
